@@ -25,15 +25,15 @@ require("lazy").setup({
   spec = {
     -- import your plugins
     { import = "plugins.autopairs" },
-    { import = "plugins.cloak" },
     { import = "plugins.gruvbox" },
     { import = "plugins.telescope" },
     { import = "plugins.treesitter" },
-    { import = "plugins.trouble" },
     { import = "plugins.toogleterm" },
     { import = "plugins.lsp" },
     { import = "plugins.mason" },
     { import = "plugins.cmp" },
+    { import = "plugins.harpoon" },
+
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
