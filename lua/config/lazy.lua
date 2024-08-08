@@ -33,6 +33,7 @@ require("lazy").setup({
     { import = "plugins.mason" },
     { import = "plugins.cmp" },
     { import = "plugins.harpoon" },
+    { import = "plugins.conform" },
 
   },
   -- Configure any other settings here. See the documentation for more details.
